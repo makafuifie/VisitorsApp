@@ -82,7 +82,7 @@ body a:hover{
 	outline:none;
 }
 .banner{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background:url(../images/banner.jpg) no-repeat 0px 0px;*/
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -90,6 +90,9 @@ body a:hover{
 	-ms-background-size:cover;
 	min-height:800px;
 }
+
+ 
+
 .more {
     margin-bottom:12em;
 }
@@ -110,6 +113,118 @@ body a:hover{
 	color:#fff;
 	line-height:1.8em;
 	margin: 1em 0 3em;
+}
+.banner1{
+   background:url(../images/banner.jpg) no-repeat 0px 0px;
+   background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:800px;
+  
+}
+.banner1-info{
+  width:80%;
+  margin:14em auto 0;
+  text-align:center;
+}
+.banner1-info h2{
+  font-size: 2.5em;
+    color: #fff;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner1-info p{
+  color:#fff;
+  line-height:1.8em;
+  margin: 1em 0 3em;
+}
+.banner2{
+   background:url(../images/banner.jpg) no-repeat 0px 0px;
+   background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:200px;
+  
+}
+.banner2-info{
+  width:80%;
+  margin:14em auto 0;
+  text-align:center;
+}
+.banner2-info h2{
+  font-size: 2.5em;
+    color: #fff;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner2-info p{
+  color:#fff;
+  line-height:1.8em;
+  margin: 1em 0 3em;
+}
+.banner3{
+   background:url(../images/arts.jpg) no-repeat 0px 0px;
+   background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:800px;
+  
+}
+.banner3-info{
+  width:80%;
+  margin:14em auto 0;
+  text-align:center;
+}
+.banner3-info h2{
+  font-size: 2.5em;
+    color: #fff;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner3-info p{
+  color:#fff;
+  line-height:1.8em;
+  margin: 1em 0 3em;
+}
+.banner4{
+   background:url(../images/cs.jpg) no-repeat 0px 0px;
+   background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:800px;
+  
+}
+.banner4-info{
+  width:80%;
+  margin:14em auto 0;
+  text-align:center;
+}
+.banner4-info h2{
+  font-size: 2.5em;
+    color: #fff;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner4-info p{
+  color:#fff;
+  line-height:1.8em;
+  margin: 1em 0 3em;
 }
 .modal-body p {
     color: #999;

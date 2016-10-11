@@ -8,16 +8,28 @@
 
 		<link rel="stylesheet"  href="css/jquery.mobile.structure.css" />
 		<link rel="stylesheet" href="css/jquery.mobile.theme.css" />
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		
 <!-- //js -->
 <link href='//fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+
+
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+<script src="js/lib/jquery.js"></script>
+		<!-- your scripts here -->
+		<script src="js/app/app.js"></script>
+		<script src="js/app/bootstrap.js"></script>
+		<script src="js/lib/jquery.mobile.js"></script>
+		<script src="index.js"></script>
+
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -45,39 +57,31 @@
 
 	</head>
 	<body>
-		<!-- banner -->
-	<div class="banner">
-		<div class="container">
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-					<div class="logo">
-						<h1><a class="navbar-brand" href="index.html">Welcome to Ashesi</a></h1>
-					</div>
-				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					<nav class="link-effect-2" id="link-effect-2"> 
-						<ul class="nav navbar-nav">
-							<li ><a href="index.html"><span data-hover="Home">Home</span></a></li>
-							<li class="active"><a href="engineering.html" ><span data-hover="Engineering">Engineering</span></a></li>
-							<li><a href="cs.html" ><span data-hover="Computer Science">Computer Science</span></a></li>
-							<li><a href="arts.html" ><span data-hover="Arts & Sciences">Arts & Sciences</span></a></li>
-							<li><a href="business.html" ><span data-hover="Business">Business</span></a></li>
-						</ul>
-					</nav>
-				</div>
-				<!-- /.navbar-collapse -->
-			</nav>
-		</div>
-		</div>
+			<nav class="navbar navbar-inverse">
+			<div data-role="header" style="text-shadow: none; border:none">
+				<h1>Ashesi</h1>
+				<a href="index.html" data-role="button" data-icon="refresh" data-iconpos="notext" style="background: white;border: none;">Refresh</a>
+			</div><!-- /header -->
+			
+				
+</nav>
+				
+		
+			<img class="img-responsive" src="images/Engineering_Ashesi.jpg" alt="Chania" width=100% height ="200px">
+		<div class="ui-grid-a">
+      <div class="ui-block-a">
+      <a data-transition = "slidefade"class="ui-btn ui-corner-all ui-shadow" href="engineering.html">Engineering</a></div>
+      <div class="ui-block-b">
+      <a  data-transition = "turn" class="ui-btn ui-corner-all ui-shadow" href="cs.html" ><span data-hover="Computer Science">Computer Science</span></a>
+      </div>
+</div>
+<div class="ui-grid-a">
+      <div class="ui-block-a">
+     <a data-transition = "slidedown" class="ui-btn ui-corner-all ui-shadow" href="business.html" >Business</a></div>
+      <div class="ui-block-b">
+      <a data-transition = "slide" class="ui-btn ui-corner-all ui-shadow" href="arts.html" >Arts & Sciences</a>
+      </div>
+</div>
 <div class="about" id="about">
 		<div class="container">
 			<div class="about-grids">
@@ -85,16 +89,7 @@
 					<h3>Engineering Department</h3>
 				</div>
 				<div class="col-md-7 about_grid_right_w3agile">
-					<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque 
-						nihil impedit quo minus id quod maxime placeat facere possimus, omnis 
-						voluptas assumenda est, omnis dolor repellendus. Temporibus autem 
-						quibusdam et aut officiis debitis aut rerum necessitatibus saepe 
-						eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
-						Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis 
-						voluptatibus maiores alias consequatur aut perferendis doloribus 
-						asperiores repellat.<span>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe 
-						eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
-						Itaque earum rerum hic tenetur a sapiente delectus.</span></p>
+					<p>The engineers tasked to solve society's problems need a broad range of skills that will allow them to tap into ideas beyond one engineering field; they have to be entrepreneurs who can see through challenges and find solutions within a local context. They must be ethical and responsible, and see the short and long term effects of their decisions on society and the environment. They also have to be leaders who can communicate their ideas and work with teams to solve problems.</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -102,11 +97,11 @@
 	</div>
 
 	<!-- footer -->
-	<div class="footer">
+	<!-- <div class="footer">
 		<div class="container">
 			<div class="footer-grids">
 				<div class="col-md-3 footer-grid">
-					<h3>About Us</h3>
+					<h3>About Ashesi</h3>
 					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse.<span>Excepteur sint occaecat cupidatat 
 						non proident, sunt in culpa qui officia deserunt mollit.</span></p>
 				</div>
@@ -115,7 +110,7 @@
 					<h3>Navigation</h3>
 					<ul>
 						<li><a href="engineering.html" >Engineering Department</a></li>
-						<li><a href="arts.html">Arts & Sciences<li><a href="business">Business Adminstration</a></li>
+						<li><a href="#arts.html">Arts & Sciences<li><a href="business">Business Adminstration</a></li>
 						<li><a href="cs">Computer Science</a></li>
 					</ul>
 				</div>
@@ -123,7 +118,7 @@
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="copy-right">
 		<div class="container">
 			<p>&copy; 2016 Ashesi University. All rights reserved</p>
@@ -158,6 +153,50 @@
 			});
 	</script>
 <!-- //here ends scrolling icon -->
+<script>
+		$.mobile.document
+		// "filter-menu-menu" is the ID generated for the listview when it is created
+		// by the custom selectmenu plugin. Upon creation of the listview widget we
+		// want to prepend an input field to the list to be used for a filter.
+		.on("listviewcreate", "#filter-menu-menu", function(e) {
+			var input,
+			    listbox = $("#filter-menu-listbox"),
+			    form = listbox.jqmData("filter-form"),
+			    listview = $(e.target);
+			// We store the generated form in a variable attached to the popup so we
+			// avoid creating a second form/input field when the listview is
+			// destroyed/rebuilt during a refresh.
+			if (!form) {
+				input = $("<input data-type='search'></input>");
+				form = $("<form></form>").append(input);
+				input.textinput();
+				$("#filter-menu-listbox").prepend(form).jqmData("filter-form", form);
+			}
+			// Instantiate a filterable widget on the newly created listview and
+			// indicate that the generated input is to be used for the filtering.
+			listview.filterable({
+				input : input
+			});
+		})
+		// The custom select list may show up as either a popup or a dialog,
+		// depending how much vertical room there is on the screen. If it shows up
+		// as a dialog, then the form containing the filter input field must be
+		// transferred to the dialog so that the user can continue to use it for
+		// filtering list items.
+		//
+		// After the dialog is closed, the form containing the filter input is
+		// transferred back into the popup.
+		.on("pagebeforeshow pagehide", "#filter-menu-dialog", function(e) {
+			var form = $("#filter-menu-listbox").jqmData("filter-form"),
+			    placeInDialog = (e.type === "pagebeforeshow" ),
+			    destination = placeInDialog ? $(e.target).find(".ui-content") : $("#filter-menu-listbox");
+			form.find("input")
+			// Turn off the "inset" option when the filter input is inside a dialog
+			// and turn it back on when it is placed back inside the popup, because
+			// it looks better that way.
+			.textinput("option", "inset", !placeInDialog).end().prependTo(destination);
+		});
+	</script>
 	</body>
 	
 </html>
